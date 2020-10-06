@@ -1,6 +1,6 @@
 # project_name: "migration_tool"
 
-application: my-great-extension {
-  label: "My Great Extension"
+application: migration_tool {
+  label: "Migration Tool"
   url: "http://localhost:8080/bundle.js"
 }
