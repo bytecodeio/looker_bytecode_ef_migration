@@ -9,7 +9,9 @@ application: migration_tool {
     new_window: yes
     allow_forms: yes
     allow_same_origin: yes
-    core_api_methods: ["all_connections","search_folders", "run_inline_query", "me"
+    core_api_methods: ["all_connections","all_projects","all_groups"
+      , "all_users", "all_folders"
+      , "search_folders", "run_inline_query", "me"
       , "lookml_model_explore", "all_lookml_models"]
     external_api_urls: ["https://*.looker.com"]
   }
