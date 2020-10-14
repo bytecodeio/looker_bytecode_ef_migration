@@ -2,8 +2,9 @@
 
 application: migration_tool {
   label: "Migration Tool"
-  url: "http://localhost:8080/bundle.js"
-  entitlements: {
+  # url: "https://bytecodeio-looker-migration-extension.s3-us-west-2.amazonaws.com/bundle.js"
+ file: "bundle.js"
+ entitlements: {
     local_storage: yes
     navigation: yes
     new_window: yes
