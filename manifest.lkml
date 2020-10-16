@@ -3,9 +3,9 @@
 
 application: linking_looker {
   label: "Linking Looker"
-  url: "http://localhost:8080/bundle.js"
+  # url: "http://localhost:8080/bundle.js"
   # url: "https://bytecodeio-looker-migration-extension.s3-us-west-2.amazonaws.com/bundle.js"
-# file: "bundle.js"
+  file: "bundle.js"
   entitlements: {
     local_storage: yes
     navigation: yes
