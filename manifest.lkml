@@ -1,9 +1,9 @@
-# project_name: "migration_tool"
 
-application: migration_tool {
-  label: "Migration Tool"
-  url: "http://localhost:8080/bundle.js"
-  # url: "https://bytecodeio-looker-migration-extension.s3-us-west-2.amazonaws.com/bundle.js"
+# project_name: "linking_looker"
+
+application: linking_looker {
+  label: "Linking Looker"
+
 # file: "bundle.js"
  entitlements: {
   local_storage: yes
@@ -23,6 +23,8 @@ application: framework_app_test {
   label: "Permissions App Test - TEMP"
   url: "http://localhost:8080/bundle.js"
   # file: "bundle.js"
+
+  file: "bundle.js"
   entitlements: {
     local_storage: yes
     navigation: yes
@@ -36,4 +38,5 @@ application: framework_app_test {
     external_api_urls: ["https://*.looker.com", "https://*.bytecode.io", "https://*.amazonaws.com/"]
     oauth2_urls: ["https://*.looker.com", "https://*.bytecode.io"]
   }
+
 }
